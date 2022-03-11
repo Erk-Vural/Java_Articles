@@ -9,7 +9,7 @@
 Dependency in programming is when class A uses some functionality from class B.Therefore, class A relies on class B to
 function properly. In Java, in order to use methods of other classes we need to create an instance of class.
 
-`Student studentInstance = new Student();`
+`Item itemInstance = new Item();`
 
 ### What is Dependency Injection
 
@@ -19,12 +19,32 @@ compile time). With this class A can use several dependencies without worried ab
 
 ### Types of Dependency Injection
 
-1. ### Constructor Injection
-  
+### 1. Constructor-Based Injection
 
-2. ### Setter Injection
+> Constructor Injection is the act of statically defining the list of required Dependencies by specifying them as parameters to the class’s constructor.
 
-3. ### Interface Injection
+Dependencies are provided through a class constructor. With this way we can guarantee that dependency is always
+available for our class because supplying the dependency using this method enables it to be stored for future use.
+
+```java
+public class ExampleController {
+    // Private instance field to store supplied Dependency
+    private ItemService itemService;
+
+    // Constructor statically defines the dependency, requires it as an argument then storing it in a private field for later use.
+    public ExampleController(ItemService itemService) {
+        this.itemService = itemService;
+    }
+}
+```
+
+### 2. Setter-Based Injection
+
+> The client exposes a setter method that the injector uses to inject the dependency.
+
+### 3. Interface Injection
+
+> The dependency provides an injector method that will inject the dependency into any client passed to it. Clients must implement an interface that exposes a setter method that accepts the dependency.
 
 ### Resources:
 
@@ -36,6 +56,10 @@ compile time). With this class A can use several dependencies without worried ab
 - A quick intro to Dependency Injection: what it is, and when to use it
 
   https://www.freecodecamp.org/news/a-quick-intro-to-dependency-injection-what-it-is-and-when-to-use-it-7578c84fa88f/
+
+
+- Understanding Constructor Injection
+  https://freecontent.manning.com/understanding-constructor-injection/
 
 
 - Intro to Inversion of Control and Dependency Injection with Spring
