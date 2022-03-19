@@ -12,6 +12,7 @@ Main advantages of using Lambda Expressions are:
 
 ### 1 ) No parameters Lambda expression
 
+```java
     // No parameter interface
     interface SimpleGreeter {
         public void greet();
@@ -21,10 +22,10 @@ Main advantages of using Lambda Expressions are:
     SimpleGreeter greeter = () -> System.out.println("Hello there!");
 
     greeter.greet();
-
+```
 
 ### 2 ) Single parameter Lambda expression 
-
+```java
     // Single parameter interface
     interface StandardGreeter {
         public void greet(String name);
@@ -34,9 +35,9 @@ Main advantages of using Lambda Expressions are:
     StandardGreeter greeter1 = name -> System.out.println("Hello there " + name);
 
     greeter1.greet("Kenobi");
-
+```
 ### 3 ) Multiple parameters Lambda expression
-
+```java
      // Multiple parameter interface
      interface AdvanceGreeter {
           public void greet(String rank, String name);
@@ -46,9 +47,9 @@ Main advantages of using Lambda Expressions are:
      AdvanceGreeter greeter2 = (rank, name) -> System.out.println("Hello there " + rank + " " + name);
 
      greeter2.greet("Master", "Kenobi");
-
+```
 ### A simple calculator example for demonstrate multiple function implementations using single interface
-
+```java
     //Multiple function implementations using single interface
     
     interface Calculator {
@@ -78,7 +79,7 @@ Main advantages of using Lambda Expressions are:
       System.out.println(operator(30, 20, multiply));
 
       System.out.println(operator(30, 20, divide));
-      
+  ```    
 ### Notes:
 - When there is one statement in implementation it can be used without curly braces and statement returns from function.
 - When there is multiple statements in implementation it requires curly braces and if not void it reqires a return statement.
