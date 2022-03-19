@@ -9,13 +9,43 @@
 Dependency in programming is when class A uses some functionality from class B.Therefore, class A relies on class B to
 function properly. In Java, in order to use methods of other classes we need to create an instance of class.
 
-`Item itemInstance = new Item();`
+```java
+public class Service {
+    public String greeting(Object user) {
+        return "Hello " + user.name;
+    }
+}
 
-### What is Dependency Injection
+public class main() {
+    Service service;
+
+    public void greetUser(Object user) {
+        service.greeting(user);
+    }
+}
+```
+
+## What is Dependency Injection
 
 With Dependency Injection creating dependency objects are handled by a middleman(DI) so class A can use the dependencies
 directly. This abstraction allows project to be updated on fly (dependencies can be injected a runtime rather than
 compile time). With this class A can use several dependencies without worried about managing it.
+
+### Pros of Dependency Injection
+
+Code is loosely coupled which helps with:
+
+- Performing unit tests
+- Reusability of components.
+- Extending existing components and applications.
+- Maintainability of the project.
+- Reduces boiler plate code.
+
+### Cons of Dependency Injection
+
+- Overusing it can lead to management and complexity problems.
+- Error that will be detected normally in compile time are pushed to runtime.
+- Navigate through code becomes harder and causes loss of developers time.
 
 ### Types of Dependency Injection
 
@@ -42,11 +72,25 @@ public class ExampleController {
 
 > The client exposes a setter method that the injector uses to inject the dependency.
 
+Spring Docs recommends this type of DI for optional dependencies and constructor based one for mandatory ones.
+
+ ```java
+public class ExampleClass {
+    // Private instance field to store supplied Dependency
+    private Item item;
+
+    public void setItem(Item item) {
+        this.item = item;
+    }
+}
+```
+
 ### 3. Interface Injection
 
-> The dependency provides an injector method that will inject the dependency into any client passed to it. Clients must implement an interface that exposes a setter method that accepts the dependency.
+The dependency provides an injector method that will inject the dependency into any client passed to it. Clients must
+implement an interface that exposes a setter method that accepts the dependency.
 
-### Resources:
+## Resources:
 
 - Dependency Injection
 
@@ -59,9 +103,15 @@ public class ExampleController {
 
 
 - Understanding Constructor Injection
+
   https://freecontent.manning.com/understanding-constructor-injection/
 
 
 - Intro to Inversion of Control and Dependency Injection with Spring
 
   https://www.baeldung.com/inversion-control-and-dependency-injection-in-spring
+
+
+- The 6 Benefits of Dependency Injection
+
+  https://betterprogramming.pub/the-6-benefits-of-dependency-injection-7802b207ec69
