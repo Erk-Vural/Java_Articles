@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/java-dependency-injection.iml" filepath="$PROJECT_DIR$/java-dependency-injection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/turkcell-java-articles.iml" filepath="$PROJECT_DIR$/turkcell-java-articles.iml" />
     </modules>
   </component>
 </project>
