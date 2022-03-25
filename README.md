@@ -1,5 +1,5 @@
 # turkcell-java-articles
-## Article and project demos on several questions
+## Articles on several questions
 
 - What is dependency injection ? Please give one way on dependency injection ? 
 - What is bean scope ? Would you give one sample bean scope ?
