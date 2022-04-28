@@ -12,6 +12,8 @@
 - Difference between ArrayList and vector ? Does arraylist maintain order ? Where should we use arraylist mostly?
 - What is linkedlist ? Where should we use linkedlist over arraylist ?
 - Differences between ArrayList , HashSet, TreeSet ?
+
+
 - What are the types of exceptions ? How can you raise exception inside method ?
 - How can you catch exception resource safely ?
 - What is thread ? How do you make a thread in java?
