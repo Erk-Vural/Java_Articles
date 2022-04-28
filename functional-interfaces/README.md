@@ -79,7 +79,7 @@ The main differences from **anonymous inner class** are:
 ## Built-in Java Functional Interfaces
 
 Since Java SE 1.8 onwards, there are many interfaces that are converted into functional interface. All these interfaces
-are annotated with @FunctionalInterface.
+are annotated with **@FunctionalInterface**.
 
 - [Runnable](https://docs.oracle.com/javase/7/docs/api/java/lang/Runnable.html) –> This interface only contains the
   run() method.
@@ -91,7 +91,7 @@ are annotated with @FunctionalInterface.
   contains the call() method.
 
 With Java SE 8 there are four main kinds of functional interfaces which can applided to multiple situations. For detail
-visit [Difference between Predicate and Consumer , Supplier functional interfaces?]()
+visit [Difference between Predicate and Consumer , Supplier functional interfaces?](https://github.com/Erk-Vural/turkcell-java-articles/tree/main/predicate-supplier-consumer)
 
 - Consumer
 - Predicate
