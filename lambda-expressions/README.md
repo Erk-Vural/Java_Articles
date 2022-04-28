@@ -10,10 +10,11 @@ is a bit confusing in the concept of Object-Oriented Programming(OOP) because in
 everything is an object and belong to a class so lambda expressions changes this by greatly simplifying functional
 programming.
 
-Example Body of a lambda expression
-![lambda-expression-structure](lambda-expression.jpg)
 
-Main advantages of using Lambda Expressions are:
+![lambda-expression-structure](lambda-expression.jpg)
+_**Example Body of a lambda expression**_
+
+**Main advantages of using Lambda Expressions are:**
 
 - Lambda expressions implements abstract function in functional interfaces.
 - With using it we get simpler, cleaner more readable code.
