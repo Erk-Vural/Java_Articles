@@ -22,6 +22,6 @@
 - [What is functional interface ? What is it used for ?](https://github.com/Erk-Vural/turkcell-java-articles/tree/main/functional-interfaces)
 - [What is lambda expression ? Could you give any sample ?](https://github.com/Erk-Vural/turkcell-java-articles/tree/main/lambda-expressions)
 - [Difference between Predicate and Consumer , Supplier functional interfaces?](https://github.com/Erk-Vural/turkcell-java-articles/tree/main/predicate-supplier-consumer)
-- [What is method reference ? Could u give sample ?](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+- [What is method reference ? Could u give sample ?](https://github.com/Erk-Vural/turkcell-java-articles/tree/main/method-reference)
 - [What is Optional ? What is it used for ?](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
