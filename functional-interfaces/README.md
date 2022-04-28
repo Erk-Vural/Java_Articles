@@ -117,4 +117,4 @@ visit [Difference between Predicate and Consumer , Supplier functional interface
 
 - Difference between Anonymous Inner Class and Lambda Expression
 
-https://www.geeksforgeeks.org/difference-between-anonymous-inner-class-and-lambda-expression
+  https://www.geeksforgeeks.org/difference-between-anonymous-inner-class-and-lambda-expression
