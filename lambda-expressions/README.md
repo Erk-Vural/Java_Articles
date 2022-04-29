@@ -122,7 +122,7 @@ class Main {
 - When there is multiple statements in implementation it requires curly braces and if not void it requires a return
   statement.
 - Parameter types are defined in interface so Lambda expression doesn't require parameter type definations.
-- An interface can be used to implement multiple functions using an oparator to navigate (like in calculator example).
+- An interface can be used to implement multiple functions using an operator to navigate (like in calculator example).
 
 ## Resources
 
