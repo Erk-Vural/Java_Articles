@@ -10,7 +10,7 @@ used as
 its implementation. A functional interface can have multiple default methods.
 
 Functional Interfaces are Included in Java with Java SE 8 with **_Lambda Expressions_** and **_Method References_** to
-makethe code more readable, clean and straightforward. Functional interfaces can only contain one abstract method, to
+make the code more readable, clean and straightforward. Functional interfaces can only contain one abstract method, to
 ensure the interface is satisfying the conditions we can use _**@FunctionalInterface**_ annotation for clearly
 communicate the purpose of the interface. This annatotation also allows compiler to generate an error message if
 interface does not satisfy required conditions.
