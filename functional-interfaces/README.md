@@ -63,13 +63,13 @@ class Main {
 }
 ```
 
-In above example we demonstrated the use of **lambda expression**. In addition, of**lambda expression** we also used
+In above example we demonstrated the use of **lambda expression**. In addition, to **lambda expression** we also used
 **@FunctionalInterface** annotation which ensures that interface can't have more than one abstract method otherwise
-complier flags **‘Unexpected @FunctionalInterface annotation’** message. And an abstract keyword to remind the reader
+compiler flags **‘Unexpected @FunctionalInterface annotation’** message. And an abstract keyword to remind the reader
 that Functional Interface can only have one abstract method. However, both additions are not mandotory to create a
 Functional Interface.
 
-The main differences from **anonymous inner class** are:
+The main differences of using **lambda expressions** from **anonymous inner classes** are:
 
 - Enable to treat functionality as a method argument.
 - A function that can be created without belonging to any class(since in Java every funtion needs to belong a class, as
@@ -90,7 +90,7 @@ are annotated with **@FunctionalInterface**.
 - [Callable](https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/Callable.html) –> This interface only
   contains the call() method.
 
-With Java SE 8 there are four main kinds of functional interfaces which can applided to multiple situations. For detail
+With Java SE 8 there are four main kinds of functional interfaces which can applided to multiple situations. For details
 visit [Difference between Predicate and Consumer , Supplier functional interfaces?](https://github.com/Erk-Vural/turkcell-java-articles/tree/main/predicate-supplier-consumer)
 
 - Consumer
