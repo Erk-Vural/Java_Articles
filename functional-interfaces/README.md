@@ -7,7 +7,7 @@ Functional interface is an interface that only contains **_one abstract method_*
 . They can have only one functionality to
 exhibit. [Lambda expressions](https://github.com/Erk-Vural/turkcell-java-articles/tree/main/lambda-expressions) can be
 used as
-its implementation. A functional interface multiple default methods.
+its implementation. A functional interface can have multiple default methods.
 
 Functional Interfaces are Included in Java with Java SE 8 with **_Lambda Expressions_** and **_Method References_** to
 makethe code more readable, clean and straightforward. Functional interfaces can only contain one abstract method, to
