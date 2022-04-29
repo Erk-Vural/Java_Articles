@@ -6,7 +6,7 @@ for [Functional Interfaces](https://github.com/Erk-Vural/turkcell-java-articles/
 interface with only one abstract method) before lambda expressions, functional interfaces needed to be impemented by an
 anonymous inner class(which is a class that only implementing functional interface's method). **Lambda expressions**
 enable the programmer to write cleaner, more readable code by enabling writing functions without a class and a name. It
-is a bit confusing in the concept of Object-Oriented Programming(OOP) because in Java besides primitic data types
+is a bit confusing in the concept of Object-Oriented Programming(OOP) because in Java besides primitive data types
 everything is an object and belong to a class so lambda expressions changes this by greatly simplifying functional
 programming.
 
