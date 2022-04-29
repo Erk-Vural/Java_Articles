@@ -21,7 +21,7 @@ _**Example Body of a lambda expression**_
 - It requires less coding.
 - It decreases boilerplate code.
 - Functions can create without belonging classes.
-- Lambda expression can be passes around like objects.
+- Lambda expression can be passed around like objects.
 
 ## Lambda Expressions can have different kind of implementations
 
