@@ -3,7 +3,7 @@
 Java is an Object-Oriented-Programming language(OOP). So apart from some primitive methods and data types, for all
 functions (methods as we called in Java) in order to use these methods we have to use their classes or objects.
 
-Functional interface is an interface that only contains one **_abstract method_** **SAM** (Single Abstract Method)
+Functional interface is an interface that only contains **_one abstract method_** **SAM** (Single Abstract Method)
 . They can have only one functionality to
 exhibit. [Lambda expressions](https://github.com/Erk-Vural/turkcell-java-articles/tree/main/lambda-expressions) can be
 used as
