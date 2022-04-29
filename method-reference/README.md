@@ -159,7 +159,7 @@ public class Main {
         personList.add(new Person("luke", 20));
         personList.add(new Person("obi1", 56));
 
-        // We called both Bicycle and Array constructors using new
+        // We called both Person and Array constructors using new
         personList.stream.map(Person::new).toArray(Person[]::new)
     }
 }
