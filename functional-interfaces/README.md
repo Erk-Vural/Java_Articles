@@ -1,7 +1,7 @@
 # What is functional interface ? What is it used for ?
 
-Java is an Object-Oriented-Programming language(OOP). So apart from some primitive methods and data types, so for all
-functions (methods as we called in Java) so in order to use these methods we have to use their classes or objects.
+Java is an Object-Oriented-Programming language(OOP). So apart from some primitive methods and data types, for all
+functions (methods as we called in Java) in order to use these methods we have to use their classes or objects.
 
 Functional interface is an interface that only contains one **_abstract method_** **SAM** (Single Abstract Method)
 . They can have only one functionality to
