@@ -3,7 +3,7 @@
 Lambda expressions are added to Java with Java 8 and known to be the biggest feature introduced with the version. They
 are used for providing an implementation
 for [Functional Interfaces](https://github.com/Erk-Vural/turkcell-java-articles/tree/main/functional-interfaces) (An
-interface with only one abstract method) before lambda expressions, functional interfaces needed to be impemented by an
+interface with only one abstract method) before lambda expressions, functional interfaces needed to be implemented by an
 anonymous inner class(which is a class that only implementing functional interface's method). **Lambda expressions**
 enable the programmer to write cleaner, more readable code by enabling writing functions without a class and a name. It
 is a bit confusing in the concept of Object-Oriented Programming(OOP) because in Java besides primitive data types
