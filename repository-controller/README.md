@@ -41,7 +41,7 @@ public interface UserRepository extends JpaRepository<User, Long> {
 
 ### Spring @Controller Annotation
 
-This annotation is a specilazed @Component annotation and a classic MVC controller it is typically use @Controller with
+This annotation is a specilazed @Component annotation and a classic MVC controller it is typically @Controller used with
 @RequestMapping annotation for request handling methods.
 
 ```java
