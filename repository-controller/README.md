@@ -9,7 +9,7 @@ A generic example for Spring Annotations is @Component it is a generic stereotyp
 
 ### Spring @Repository Annotation
 
-This annotation is a specilazed @Component annotation and responsable for storage, retrival, update, delete and search
+This annotation is a specialized @Component annotation and responsable for storage, retrival, update, delete and search
 operations on objects. It's similar to DAO pattern which reponsible for CRUD operations for Database tables.
 
 Below is a simple User entity and UserRepository for demonstrate uses of a repository.
