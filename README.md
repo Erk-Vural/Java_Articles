@@ -1,4 +1,6 @@
-# turkcell-java-articles
+# Java Articles
+
+Java Articles is a repository containing articles and code examples covering common Java concepts.
 
 ## Articles on several questions
 
